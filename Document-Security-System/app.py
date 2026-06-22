@@ -20,7 +20,6 @@ latest_report = {}
 
 
 client = MongoClient(os.getenv("MONGO_URI"))
-db = client["document_security_db"]
 db = client["document_security"]
 users = db["users"]
 
