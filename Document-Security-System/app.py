@@ -18,7 +18,9 @@ app.secret_key = "madhu_secret_key"
 
 latest_report = {}
 
-client = MongoClient("mongodb://localhost:27017/")
+
+client = MongoClient(os.getenv("MONGO_URI"))
+db = client["document_security_db"]
 db = client["document_security"]
 users = db["users"]
 
