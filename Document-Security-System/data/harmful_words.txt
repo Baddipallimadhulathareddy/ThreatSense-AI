@@ -1,0 +1,232 @@
+hack
+hacker
+hacking
+malware
+virus
+trojan
+worm
+ransomware
+spyware
+adware
+rootkit
+keylogger
+botnet
+backdoor
+payload
+exploit
+vulnerability
+zero-day
+zeroday
+phishing
+spear-phishing
+whaling
+spoofing
+scam
+fraud
+credential
+credentials
+password
+passcode
+pin
+otp
+authentication
+bypass
+bruteforce
+brute-force
+dictionary attack
+rainbow table
+crack
+cracking
+password cracking
+steal
+stolen
+theft
+data theft
+identity theft
+account takeover
+session hijacking
+hijack
+sniffing
+packet sniffing
+eavesdropping
+wiretap
+intercept
+surveillance
+spy
+espionage
+inject
+injection
+sql injection
+xss
+cross-site scripting
+csrf
+command injection
+code injection
+remote code execution
+rce
+shell
+reverse shell
+webshell
+shellcode
+privilege escalation
+escalation
+unauthorized access
+breach
+data breach
+compromise
+compromised
+exfiltration
+data exfiltration
+leak
+data leak
+dump
+database dump
+credential dump
+token theft
+session theft
+cookie theft
+bypass security
+disable antivirus
+evade detection
+obfuscation
+packer
+cryptor
+dropper
+loader
+downloader
+malicious
+malicious code
+malicious software
+infect
+infection
+infected
+attack
+cyberattack
+ddos
+dos attack
+distributed denial of service
+denial of service
+flood attack
+ping flood
+syn flood
+udp flood
+icmp flood
+smurf attack
+man-in-the-middle
+mitm
+arp spoofing
+dns spoofing
+dns poisoning
+cache poisoning
+route hijacking
+network intrusion
+intrusion
+reconnaissance
+footprinting
+enumeration
+port scan
+nmap
+vulnerability scan
+scan network
+recon
+exploit kit
+metasploit
+cobalt strike
+beacon
+implant
+persistence
+lateral movement
+pivoting
+command and control
+c2
+c&c
+bot
+zombie computer
+trojan horse
+banking trojan
+crypto malware
+cryptojacking
+miner
+coin miner
+bitcoin miner
+malvertising
+drive-by download
+watering hole attack
+supply chain attack
+rogue software
+fake antivirus
+scareware
+logic bomb
+time bomb
+payload delivery
+weaponized document
+macro malware
+macro virus
+malicious macro
+infected attachment
+dangerous attachment
+trojanized
+tamper
+tampering
+unauthorized modification
+destructive code
+wipe data
+data destruction
+disk wipe
+ransom note
+encrypt files
+file encryption
+extortion
+blackmail
+cyber extortion
+credential harvesting
+account compromise
+email compromise
+business email compromise
+bec
+fake login
+fake website
+credential stuffing
+session fixation
+security bypass
+firewall bypass
+antivirus bypass
+sandbox evasion
+detection evasion
+stealth malware
+covert channel
+malicious script
+powershell attack
+powershell exploit
+bash exploit
+remote access trojan
+rat
+banking malware
+information stealer
+infostealer
+stealer
+credential stealer
+token stealer
+browser stealer
+clipboard hijacker
+screen capture malware
+web injector
+form grabber
+malicious executable
+exe malware
+infected file
+dangerous file
+threat actor
+cybercriminal
+attacker
+adversary
+malicious actor
+unauthorized user
+illegal access
+system compromise
+network compromise
+security incident
+security threat
+cyber threat
+high risk
+critical vulnerability

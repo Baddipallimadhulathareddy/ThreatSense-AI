@@ -1,0 +1,6 @@
+fake_news/*.csv
+*.csv
+venv/
+__pycache__/
+.env
+Document-Security-System/.env
