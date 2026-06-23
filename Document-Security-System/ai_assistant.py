@@ -10,23 +10,46 @@ genai.configure(
 
 model = genai.GenerativeModel("gemini-2.5-flash")
 
-def ask_ai(question, report_data):
+def ask_ai(question, report_data=None):
 
-    prompt = f"""
-You are an AI Cybersecurity Assistant.
-
-Analyze the following security report and answer only based on the report.
+    if report_data:
+        prompt = f"""
+You are ThreatSense AI, an expert Cybersecurity Assistant.
 
 Security Report:
-
 {report_data}
 
 User Question:
 {question}
 
-Provide a short and professional answer.
+Use both the report and your cybersecurity knowledge to answer.
+
+Provide:
+- Clear explanations
+- Short paragraphs
+- Bullet points when useful
+- Professional cybersecurity advice
+"""
+    else:
+        prompt = f"""
+You are ThreatSense AI, an expert Cybersecurity Assistant.
+
+Answer the following cybersecurity question professionally.
+
+Requirements:
+- Keep answers concise
+- Use simple language
+- Use bullet points where appropriate
+- Focus on practical cybersecurity guidance
+
+Question:
+{question}
 """
 
-    response = model.generate_content(prompt)
+    try:
+        response = model.generate_content(prompt)
+        return response.text
 
-    return response.text
+    except Exception as e:
+        print("Gemini Error:", e)
+        return "AI service is temporarily unavailable. Please try again in a few moments."
